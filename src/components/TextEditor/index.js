@@ -85,7 +85,7 @@ class TextEditor extends Component {
               value={textInput}
               onChange={this.onChangeText}
               bold={bold ? 'bold' : 'normal'}
-              style={italic ? 'italic' : 'normal'}
+              style={{fontStyle: italic ? 'italic' : 'normal'}}
               textUl={underline ? 'underline' : 'normal'}
             />
           </TextContainer>
